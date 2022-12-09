@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title> zadanie 78 </title>
+<script language="JavaScript">
+var min_x = prompt("podaj minimalnie znaczenie x");
+var max_x = prompt("podaj maksumalnie znaczenie x");
+var min_y = prompt("podaj minimalnie znaczenie y");
+var max_y = prompt("podaj maksumalnie znaczenie y");
+var x_min = parseFloat(min_x);
+var y_min = parseFloat(min_y);
+var x_max = parseFloat(max_x);
+var y_max = parseFloat(max_y);
+var d = 0;
+	for ( var i=x_min; i<=x_max; i++)
+	{
+		for ( var k=y_min; k<=y_max; i++)
+		{
+				document.write("w["+i+"]["+k+"] = "+d+"<br>");
+		}
+	}
+	
+</script>
+</head>
+<body>
+</body>
+</html>
